@@ -1,12 +1,12 @@
 # 2021_NBAplayers_Clustering-Regression-_Project
 
-  *I am a firm believer that knowledge leads to prosperity and am greatly passionate about education. Not only the education that is received in the lecture rooms, but also the practical, hands on experience one gets during internships and co-ops in between the school year. As a former undergrad student, I have seen how stressful and intimidating trying to land your first internship can be. I wanted to create a model that really shows and understands the vast data of students around the country sending application into the massive void of the job force.*
+  *As a huge sports and basketball fan, I wanted to work on a project the involed basketball players and statistics. My goal for this project was to really dive into what seperates ever player interms or play style. This was a challenging iterative tio understand what variable I wanted to use to get the best results for each case. By delving deep into the statistics of the players I was able appriate all my favorite players even more by understaing the crux of there playtyles.*
 # NBA players Clustering/Regression Project(Based on 2020/2021 season): Overview
-- Created a model the estimated the number of intern applicants for a job posting based on job location and industry. (Mean Absolute Error - 25.1 applications)
+- Used KMeans from sklearn to cluster players to analyse similar play styles, see how good a player is, and determine if the traditional PPG, AST and RPG are good ways to jusge a player.
 - Cleaned and organized data in Pandas to create the best possible Data Frame to use for exploratory data analysis and model building.
-- Scrapped 10,000 job postings from LinkedIn using Selenium and BeautifulSoup
-- Created different models: Linear Regression, Lasso Regression and Random Forest. Formulated a better Model by optimizing using GridsearchCV. 
-- Using Flask made a client facing API that can is AWS accessible.
+- Used Seaborn and Matplotib to determine which stats were best fit to use in our clusters and our regrassion models. 
+- Created models: Multiple Linear Regression with test and train cases and determined best Height and Weight for Offensive Rebounts and Defencive rebounds in the NBA. 
+- Created model the Predicts Points per game but looking at other game and pysical statistics.
 
 
 
