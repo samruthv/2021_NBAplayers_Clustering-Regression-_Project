@@ -100,9 +100,19 @@ print(will_Cluster)
 stats=totalstats[["#", "labeledGroup"]].corr()
 sb.pairplot(totalstats[["#", "labeledGroup"]])
 
-#we tried looking if how good the player was is correlated to height
-#we get the correlation to be -0.019. So it safe to say no coorelation
-height_model_corr=totalstats[["HEIGHT", "labeledGroup"]].corr()
+#we tried looking if how good the player was is correlated to salary
+#we get the correlation to be 0.0687. So it safe to say no coorelation
+sal_corr=totalstats[["SALARY", "labeledGroup"]].corr()
+
+
+#But lets look at individual stats to salary
+
+#Salary and PPG are 72.7% correlated
+sal_corr=totalstats[["SALARY", "PPG"]].corr()
+#Salary and AST are 67.9% correlated
+sal_corr=totalstats[["SALARY", "AST"]].corr()
+#Salary and RPG are 48.9% correlated
+sal_corr=totalstats[["SALARY", "RPG"]].corr()
 
 
 
