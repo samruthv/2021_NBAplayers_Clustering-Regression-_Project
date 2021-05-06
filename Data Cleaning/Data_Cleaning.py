@@ -54,6 +54,16 @@ players2=players2.drop(columns=['HEIGHT', 'first', 'second', '5_feet', '6_feet',
 players2['HEIGHT']=players2['inchesHeight']
 players2=players2.drop(columns=['inchesHeight'] )
 
+#cleaning and adding Player3
+players3 = pd.read_csv('sal_pos_player.csv')
+sal = players3['SALARY']
+sal = sal.apply(lambda x: x.replace('--', '0'))
+
+
+
+players3['SALARY'] = sal.astype(str).astype(int)
+
+
 #exporting csv files from pandas
 
 #new player2 file 
@@ -62,6 +72,7 @@ players2.to_csv('Full_NBA_Player_Stats2.csv', index = False)
 players = pd.read_csv('Full_NBA_Player_Stats.csv')
 players_2 = pd.read_csv('Full_NBA_Player_Stats2.csv')
 totalstats = pd.merge(players, players_2, on="Player")
+totalstats = pd.merge(totalstats, players3, on="Player")
 
 
 #combineing both data sets
