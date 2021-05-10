@@ -15,3 +15,20 @@
 **Python**: Version 3.7.6    
 **Packages**: Numpy, Pandas, Kmeans, Sklearn, matplotib, selinium, seaborn
 **Tableau**: https://public.tableau.com/profile/samruth.vennapusala#!/
+
+
+## Resources
+
+## Data Scraping
+
+## Data Cleaning
+
+## Data Analysis
+
+## Model
+
+## Contact Information
+
+**Email:** samruthv@gmail.com   
+**LinkedIn:** https://www.linkedin.com/in/samruthv/
+
