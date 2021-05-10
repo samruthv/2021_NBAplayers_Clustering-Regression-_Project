@@ -28,7 +28,13 @@ We took 3 different data sets from different sources and cominded them under one
 
 https://github.com/samruthv/2021_NBAplayers_Clustering-Regression-_Project/blob/main/Data%20Cleaning/total_Stats.csv
 
-## Data Analysis
+**The Vertacies:**
+[#,	Player,	Team,	GP,_x	MPG,	FGM, FGA,	FG%,	3PM,	3PA,	3P%,	FTM,	FTA,	FT%,	TOV,	PF,	ORB,	DRB,	RPG,	APG,	SPG,	BPG,	PPG,	TEAM,	AGE,	WEIGHT,	COLLEGE,	COUNTRY,	DRAFT YEAR,	DRAFT ROUND,	DRAFT NUMBER,	GP_y,	PTS,	REB,	AST,	NETRTG,	OREB%,	DREB%,	USG%,	TS%,	AST%,	HEIGHT,	Position,	SALARY]
+
+*The '#' represents the rank of the player on their given team. This is an opinionated rank given by one of the website. The rest of the data are factual data from officaal sorces.*   
+
+
+## Exploritory Data Analysis
 
 ## Model
 
