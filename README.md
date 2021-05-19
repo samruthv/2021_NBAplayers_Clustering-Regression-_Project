@@ -90,6 +90,10 @@ We first have the facilitators. These are the players with a high basketball IQ 
 
 Some Examples of facilitaors include Chris Paul, Ben Simmons, Kemba Walker and Darius Garlang.
 
+<p align="center">
+   <img src="ChrisPaul.png" width="250" > <img src="BenSimmons.png" width="250" > <img src="KembaWalker.png" width="250" > <img src="DariusGarland.png" width="250" >
+</p>
+
 Next Up we have the Big Men. This is typically a tall and pysical low post player that is good with good with offensive and defensive rebounds. When someone is referring to the big man on a basketball team, they are usually referring to either the power forward or center.
 
 Some examples of the Big Men include Nikola Vucevic, Kristaps Porzingis, Kar-Anothony Towns and Joel Embied
