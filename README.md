@@ -92,7 +92,10 @@ Some Examples of facilitaors include Chris Paul, Ben Simmons, Kemba Walker and D
 
 <p align="center">
    <img src="ChrisPaul.jpg" width="250" > <img src="BenSimmons.png" width="250" > 
-</p>
+</p>    
+
+
+<img src="ChrisPaul.jpg" width="250" >
 
 Next Up we have the Big Men. This is typically a tall and pysical low post player that is good with good with offensive and defensive rebounds. When someone is referring to the big man on a basketball team, they are usually referring to either the power forward or center.
 
