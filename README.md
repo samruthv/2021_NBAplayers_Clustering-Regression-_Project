@@ -44,7 +44,7 @@ Firstly here are pairplots and heatplots of the different columns of data.
   Heatmaps
 </p>
 <p align="center">
-   <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Dataset1_heatmap.png" width="400" > <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Dataset2_heatmap.png" width="385"  >
+   <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Dataset1_heatmap.png" width="400" > <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Dataset2_heatmap.png" width="387"  >
 </p>
 <p align="center">
   Pairmaps
