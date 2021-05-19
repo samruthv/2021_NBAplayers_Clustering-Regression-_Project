@@ -2,18 +2,11 @@
 
   *As a huge sports and basketball fan, I wanted to work on a project the involed basketball players and statistics. My goal for this project was to really dive into what seperates ever player interms or play style. This was a challenging iterative tio understand what variable I wanted to use to get the best results for each case. By delving deep into the statistics of the players I was able appriate all my favorite players even more by understaing the crux of there playStyles.*
 # NBA players Clustering/Regression Project(Based on 2020/2021 season): Overview
-- Used KMeans from sklearn to cluster players to analyse similar play styles, see how good a player is, and determine if the traditional PPG, AST and RPG are good ways to jusge a player. Was able to predictr the players position with 73.2% accuracy.
+- Used KMeans from sklearn to cluster players to analyse similar play styles, see how good a player is, and determine if the traditional PPG, AST and RPG are good ways to jusge a player.
 - Cleaned and organized data in Pandas to create the best possible Data Frame to use for exploratory data analysis and model building.
 - Used Seaborn and Matplotib to determine which stats were best fit to use in our clusters and our regrassion models. 
 - Created models: Multiple Linear Regression with test and train cases and determined best Height and Weight for Offensive Rebounts and Defencive rebounds in the NBA. 
 - Created model the Predicts Points per game but looking at other game and pysical statistics.
-
-<p align="center">
-  Here are some of the important Mean Stats we wee throughout the project
-</p>
-<p align="center">
-   <img src="Data%20Cluster/Players_mean_stats.PNG" width="650" > 
-</p>
 
 
 
@@ -81,20 +74,17 @@ There is a lot to break down with these tables. There are a lot of statistics wi
 We also looked at the physique of the players   
 Height VS Weight     
 
-
+<img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Weight_VS_Height.png" width="250" >
 
 ## Clustering
-In this section we performed 2 dimentional and multidimentional clusting with K-means to be able to predict and see how well we can predict with our models.
 
-We were performed a K-Means cluster in Tableau to be vizualize how we were able to predict with 73.2% accuracyu the position of a player with just th ehight and the wieght.
+Our nexzt step we performed 2 demintional and multidementional clustering with K-means to see how well we can predict the orginal data with our model.
 
-<img src="Data%20Cluster/Player_Position_Predictor.PNG" width="750" >
-
-We moved on to more complex clustering in in python were we were able to use many more different variables to create models.
+The first situation the we were able to cluster and evaluate in tablue was our Height vs. Weight. In this model we were able to predict the position that a player played with 73.2% accuracy.
 
 
 
-
+We then move onto more complex clustering models in python. One of the situations we were trying to cluster were the type of players. This was a difficult task becuase we did not want k-means to cluster the players who get more playing time to less playing. If we used all the variables our medel just seperated the players by who put up more higher stats vs lower states. We did not want this. What we want was to cluser by play style. So the 'catch and shoot player', 'big man', 'facilitators', 'all rounded'and ect get paired together. For us to get this result, we could not include any variables that were coorealted to playing time. So for example instead of using 3 points made, we would use 3 point percentage. This was a very itterative process and I kept going back to look at where the models were placing playuers until I thought a model looked good enough. There is no correct or incorrect answer to this clustering as it kept changing as I was tunign the model with variables. But in the end I was a ble to land on a cluster that I thought was prettu good. 
 
     
     
