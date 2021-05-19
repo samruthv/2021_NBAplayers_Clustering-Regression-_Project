@@ -50,7 +50,7 @@ Firstly here are pairplots and heatplots of the different columns of data.
   Pairmaps
 </p>
 <p align="center">
-   <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Stats_Correlation_pairplot.png" width="450" > <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/DATA2_pairplots.png" width="451"  >
+   <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Stats_Correlation_pairplot.png" width="400" > <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/DATA2_pairplots.png" width="401"  >
 </p>
 
 
