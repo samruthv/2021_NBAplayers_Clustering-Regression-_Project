@@ -9,7 +9,10 @@
 - Created model the Predicts Points per game but looking at other game and pysical statistics.
 
 <p align="center">
-   <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/TOV_vs_APG.png" width="250" > 
+  Here are some of the important Mean Stats we wee throughout the project
+</p>
+<p align="center">
+   <img src="Data%20Cluster/Players_mean_stats.PNG" width="650" > 
 </p>
 
 
@@ -78,7 +81,16 @@ There is a lot to break down with these tables. There are a lot of statistics wi
 We also looked at the physique of the players   
 Height VS Weight     
 
-<img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Weight_VS_Height.png" width="250" >
+
+
+## Clustering
+In this section we performed 2 dimentional and multidimentional clusting with K-means to be able to predict and see how well we can predict with our models.
+
+We were performed a K-Means cluster in Tableau to be vizualize how we were able to predict with 73.2% accuracyu the position of a player with just th ehight and the wieght.
+
+<img src="Data%20Cluster/Player_Position_Predictor.PNG" width="750" >
+
+We moved on to more complex clustering in in python were we were able to use many more different variables to create models.
 
 
 
