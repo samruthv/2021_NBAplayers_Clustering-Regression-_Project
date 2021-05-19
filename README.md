@@ -86,6 +86,24 @@ The first situation the we were able to cluster and evaluate in tablue was our H
 
 We then move onto more complex clustering models in python. One of the situations we were trying to cluster were the type of players. This was a difficult task becuase we did not want k-means to cluster the players who get more playing time to less playing. If we used all the variables our medel just seperated the players by who put up more higher stats vs lower states. We did not want this. What we want was to cluser by play style. So the 'catch and shoot player', 'big man', 'facilitators', 'all rounded'and ect get paired together. For us to get this result, we could not include any variables that were coorealted to playing time. So for example instead of using 3 points made, we would use 3 point percentage. This was a very itterative process and I kept going back to look at where the models were placing playuers until I thought a model looked good enough. There is no correct or incorrect answer to this clustering as it kept changing as I was tunign the model with variables. But in the end I was a ble to land on a cluster that I thought was prettu good. 
 
+We first have the facilitators. These are the players with a high basketball IQ and can see plays happening before they happen. In addition, these types of players are typically masters of the half court set offense and they usually know the correct spots for each player on the court. It was not by coincidence that a lot of point gaurds or players with good assist percentages got placed in this catagory. 
+
+Some Examples of facilitaors include Chris Paul, Ben Simmons, Kemba Walker and Darius Garlang.
+
+Next Up we have the Big Men. This is typically a tall and pysical low post player that is good with good with offensive and defensive rebounds. When someone is referring to the big man on a basketball team, they are usually referring to either the power forward or center.
+
+Some examples of the Big Men include Nikola Vucevic, Kristaps Porzingis, Kar-Anothony Towns and Joel Embied
+
+We then get tot eh shooters who are exacty what they sound like. High shooting rates with good finished percentages. A shooter can not be described by position as easily as a big man and a faciliator, there can be and are many power forwads that are considered shooters. 
+
+Some example of shooters include Kyle Korver, Duncan Robinson, Joe Harris and Gordan Hayword.
+
+We alsol have a misselanious catitgory that include a lot of players that either dont match any of the other classifications. What I found was that a lot of these players were placed in this catagory because they did not have enough time played to describe there playing style correctly. For example there was a player that had a 100% shooting percentage or 0 % APG. This was due to the fact that they did not have enough stats to be classfied properly. I had to adjust the variables and the k-means parameters to cluster these players out.
+
+Finially We have the al arounds players. These are the players that usually do everything, and a lot of the all-star players get catogorized in this catagory.
+
+Some example of the all-ropund players include Lebron James, Nikola Jokic, Jason Tatum and Kawaii Lenord.
+
     
     
 
