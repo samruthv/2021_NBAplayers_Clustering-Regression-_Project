@@ -52,7 +52,30 @@ Firstly here are pairplots and heatplots of the different columns of data.
 <p align="center">
    <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Stats_Correlation_pairplot.png" width="450" > <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/DATA2_pairplots.png" width="451"  >
 </p>
-*Double click the maps to apen the picture in a new tab to get a clearer picture*    
+
+
+*Double click the maps to open the picture in a new tab to get a clearer picture*    
+
+There is a lot to break down with these tables. There are a lot of statistics with stong positive coorilation, some with negative coorilation and some that are not coorilated at all. for example:
+
+<p align="center">
+  TOV vs APG    |     FT% vs BPG    |     3P% vs ORB
+</p>
+<p align="center">
+  Strong Positive coorilation    |     No Coorilation    |     Slight Negative Coorilation
+</p>
+
+ 
+
+<p align="center">
+   <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/TOV_vs_APG.png" width="250" > <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/FT%25_vs_BPG.png" width="250" > <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/3P%25_VS_ORB.png" width="250" > 
+</p>
+ 
+We also looked at the physique of the players   
+Height VS Weight     
+
+<img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Weight_VS_Height.png" width="250" >
+
 
 
 
