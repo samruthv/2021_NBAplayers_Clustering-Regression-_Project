@@ -8,6 +8,9 @@
 - Created models: Multiple Linear Regression with test and train cases and determined best Height and Weight for Offensive Rebounts and Defencive rebounds in the NBA. 
 - Created model the Predicts Points per game but looking at other game and pysical statistics.
 
+<p align="center">
+   <img src="Data%20Cluster/Players_mean_stats.PNG" width="700" >
+</p>
 
 
 
