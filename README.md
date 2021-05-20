@@ -84,7 +84,7 @@ Height VS Weight
 
 <img src="Exploratory%20Data%20Analysis/EDA_IMAGES/Weight_VS_Height.png" width="250" >
 
-## Clustering
+## Clustering and Modeling
 
 Our nexzt step we performed 2 demintional and multidementional clustering with K-Means to see how well we can predict the orginal data with our model.
 
@@ -161,13 +161,16 @@ Lastly, I wanted to create a model a cluster model with 3 variables, 'PPG', 'AST
 With this model we get that there is a 68.99% Relation between the model and the MPG (minutes played per game). This is why we need to use stats that are not time based and more performance based.
 
 
+## Interesting Regression Models That I Wanted to Share (Bonus) :)
 
+To quench my curiosity I made a couple regression models which you can find in the models folder. I wanted to see how good of predicters some variable can be.
+
+Linear Regression Models:
+prediction for ORB with height and weight (Coefficient of determination R^2 is 31.9%)
+prediction for DRB with height and weight (Coefficient of determination R^2 is 20.9%)
+prediction for PPG with AST and RPG (Coefficient of determination R^2 is 53.3%)
     
-    
 
-
-
-## Model
 
 ## Contact Information
 
