@@ -369,7 +369,10 @@ for index, row in cleanedDF.iterrows():
 players['predictedGroup']=name_cluster 
 
 
+#Raltionship with the cluster and playing time
 
+time_corr=totalstats[["MPG", "labeledGroup"]].corr()
+#There is 68.99% relationship
 
 
 LeBron = good_columns.loc[players['Player']=='LeBron James',:]
