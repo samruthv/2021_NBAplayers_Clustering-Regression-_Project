@@ -140,9 +140,9 @@ Some examples of the **all-round** players include Lebron James, Nikola Jokic, J
 
 I wanted to see if this model was related to the player salary in any sort of way but as I expected there was not much correlation at all 6.87%. However, I also looked at the correlation between some of the popular stats and salary and there was most definitely a correlated.
 
-PPG vs Salary: 72.7% correlated.
-AST vs Salary: 67.9% correlated.
-RPG vs Salary: 48.9% correlated.
+PPG vs Salary: 72.7% correlated.   
+AST vs Salary: 67.9% correlated.    
+RPG vs Salary: 48.9% correlated.    
 
 Can we define a good player and a bad player? We have the player rankings by team that were given by ESPN, what does our model say about the ranking on the teams. Can we predict what rank the player will be on their team with our model.
 
