@@ -165,10 +165,10 @@ With this model we get that there is a 68.99% Relation between the model and the
 
 To quench my curiosity I made a couple regression models which you can find in the models folder. I wanted to see how good of predicters some variable can be.
 
-Linear Regression Models:
-prediction for ORB with height and weight (Coefficient of determination R^2 is 31.9%)
-prediction for DRB with height and weight (Coefficient of determination R^2 is 20.9%)
-prediction for PPG with AST and RPG (Coefficient of determination R^2 is 53.3%)
+Linear Regression Models:    
+prediction for ORB with height and weight (Coefficient of determination R^2 is 31.9%)    
+prediction for DRB with height and weight (Coefficient of determination R^2 is 20.9%)     
+prediction for PPG with AST and RPG (Coefficient of determination R^2 is 53.3%)     
     
 
 
