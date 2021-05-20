@@ -91,25 +91,36 @@ We first have the facilitators. These are the players with a high basketball IQ 
 Some Examples of facilitaors include Chris Paul, Ben Simmons, Kemba Walker and Darius Garlang.
 
 <p align="center">
-   <img src="ChrisPaul.jpg" width="250" > <img src="BenSimmons.png" width="250" > 
+   <img src="Data%20Cluster/Players/ChrisPaul.png" width="200" > <img src="Data%20Cluster/Players/BenSimmons.png" width="200" > <img src="Data%20Cluster/Players/KembaWalker.png" width="200" > <img src="Data%20Cluster/Players/DariusGarlang.png" width="200" > 
 </p>    
 
 
-<img src="ChrisPaul.jpg">
 
 Next Up we have the Big Men. This is typically a tall and pysical low post player that is good with good with offensive and defensive rebounds. When someone is referring to the big man on a basketball team, they are usually referring to either the power forward or center.
 
 Some examples of the Big Men include Nikola Vucevic, Kristaps Porzingis, Kar-Anothony Towns and Joel Embied
 
+<p align="center">
+   <img src="Data%20Cluster/Players/NikolaVucevic.png" width="200" > <img src="Data%20Cluster/Players/KristapsPorzingis.png" width="200" > <img src="Data%20Cluster/Players/KarlAnthonyTowns.png" width="200" > <img src="Data%20Cluster/Players/JoelEmbied.png" width="200" > 
+</p>    
+
 We then get tot eh shooters who are exacty what they sound like. High shooting rates with good finished percentages. A shooter can not be described by position as easily as a big man and a faciliator, there can be and are many power forwads that are considered shooters. 
 
 Some example of shooters include Kyle Korver, Duncan Robinson, Joe Harris and Gordan Hayword.
+
+<p align="center">
+   <img src="Data%20Cluster/Players/KyleKorver.png" width="200" > <img src="Data%20Cluster/Players/DuncanRobinson.png" width="200" > <img src="Data%20Cluster/Players/JoeHarris.png" width="200" > <img src="Data%20Cluster/Players/GordanHayword.png" width="200" > 
+</p>    
 
 We alsol have a misselanious catitgory that include a lot of players that either dont match any of the other classifications. What I found was that a lot of these players were placed in this catagory because they did not have enough time played to describe there playing style correctly. For example there was a player that had a 100% shooting percentage or 0 % APG. This was due to the fact that they did not have enough stats to be classfied properly. I had to adjust the variables and the k-means parameters to cluster these players out.
 
 Finially We have the al arounds players. These are the players that usually do everything, and a lot of the all-star players get catogorized in this catagory.
 
 Some example of the all-ropund players include Lebron James, Nikola Jokic, Jason Tatum and Kawaii Lenord.
+
+<p align="center">
+   <img src="Data%20Cluster/Players/LebronJames.png" width="200" > <img src="Data%20Cluster/Players/NikolaJokic.png" width="200" > <img src="Data%20Cluster/Players/JasonTatum.png" width="200" > <img src="Data%20Cluster/Players/KawaiiLeanord.png" width="200" > 
+</p>    
 
     
     
