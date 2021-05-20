@@ -78,17 +78,25 @@ Height VS Weight
 
 ## Clustering
 
-Our nexzt step we performed 2 demintional and multidementional clustering with K-means to see how well we can predict the orginal data with our model.
+Our nexzt step we performed 2 demintional and multidementional clustering with K-Means to see how well we can predict the orginal data with our model.
 
-The first situation the we were able to cluster and evaluate in tablue was our Height vs. Weight. In this model we were able to predict the position that a player played with 73.2% accuracy.
+The first situation the we were able to cluster and evaluate in tabeau was our Height vs. Weight. In this model we were able to predict the position that a player played with 73.2% accuracy.
 
+<p align="center">
 
+<img src="Data%20Cluster/Player_Position_Predictor.PNG" width="550" >
+</p>
 
 We then move onto more complex clustering models in python. One of the situations we were trying to cluster were the type of players. This was a difficult task becuase we did not want k-means to cluster the players who get more playing time to less playing. If we used all the variables our medel just seperated the players by who put up more higher stats vs lower states. We did not want this. What we want was to cluser by play style. So the 'catch and shoot player', 'big man', 'facilitators', 'all rounded'and ect get paired together. For us to get this result, we could not include any variables that were coorealted to playing time(We go into more detail on why we can not use time depandent statistics more in detail atr the bottem of the 'Clustering' section). So for example instead of using 3 points made, we would use 3 point percentage. This was a very itterative process and I kept going back to look at where the models were placing playuers until I thought a model looked good enough. There is no correct or incorrect answer to this clustering as it kept changing as I was tunign the model with variables. But in the end I was a ble to land on a cluster that I thought was prettu good. 
 
+
+
+<img src="Data%20Cluster/PlayerType%20PredictiveModel.png" width="350" >
+
+
 We first have the facilitators. These are the players with a high basketball IQ and can see plays happening before they happen. In addition, these types of players are typically masters of the half court set offense and they usually know the correct spots for each player on the court. It was not by coincidence that a lot of point gaurds or players with good assist percentages got placed in this catagory. 
 
-Some Examples of facilitaors include Chris Paul, Ben Simmons, Kemba Walker and Darius Garlang.
+Some Examples of **facilitaors** include Chris Paul, Ben Simmons, Kemba Walker and Darius Garlang.
 
 <p align="center">
    <img src="Data%20Cluster/Players/ChrisPaul.png" width="200" > <img src="Data%20Cluster/Players/BenSimmons.png" width="200" > <img src="Data%20Cluster/Players/KembaWalker.png" width="200" > <img src="Data%20Cluster/Players/DariusGarlang.png" width="200" > 
@@ -98,7 +106,7 @@ Some Examples of facilitaors include Chris Paul, Ben Simmons, Kemba Walker and D
 
 Next Up we have the Big Men. This is typically a tall and pysical low post player that is good with good with offensive and defensive rebounds. When someone is referring to the big man on a basketball team, they are usually referring to either the power forward or center.
 
-Some examples of the Big Men include Nikola Vucevic, Kristaps Porzingis, Kar-Anothony Towns and Joel Embied
+Some examples of the **Big Men** include Nikola Vucevic, Kristaps Porzingis, Kar-Anothony Towns and Joel Embied
 
 <p align="center">
    <img src="Data%20Cluster/Players/NikolaVucevic.png" width="200" > <img src="Data%20Cluster/Players/KristapsPorzingis.png" width="200" > <img src="Data%20Cluster/Players/KarlAnthonyTowns.png" width="200" > <img src="Data%20Cluster/Players/JoelEmbied.png" width="200" > 
@@ -106,7 +114,7 @@ Some examples of the Big Men include Nikola Vucevic, Kristaps Porzingis, Kar-Ano
 
 We then get tot eh shooters who are exacty what they sound like. High shooting rates with good finished percentages. A shooter can not be described by position as easily as a big man and a faciliator, there can be and are many power forwads that are considered shooters. 
 
-Some example of shooters include Kyle Korver, Duncan Robinson, Joe Harris and Gordan Hayword.
+Some example of **shooters** include Kyle Korver, Duncan Robinson, Joe Harris and Gordan Hayword.
 
 <p align="center">
    <img src="Data%20Cluster/Players/KyleKorver.png" width="200" > <img src="Data%20Cluster/Players/DuncanRobinson.png" width="200" > <img src="Data%20Cluster/Players/JoeHarris.png" width="200" > <img src="Data%20Cluster/Players/GordanHayword.png" width="200" > 
@@ -116,7 +124,7 @@ We alsol have a misselanious catitgory that include a lot of players that either
 
 Finially We have the al arounds players. These are the players that usually do everything, and a lot of the all-star players get catogorized in this catagory.
 
-Some example of the all-ropund players include Lebron James, Nikola Jokic, Jason Tatum and Kawaii Lenord.
+Some example of the **all-ropund** players include Lebron James, Nikola Jokic, Jason Tatum and Kawaii Lenord.
 
 <p align="center">
    <img src="Data%20Cluster/Players/LebronJames.png" width="200" > <img src="Data%20Cluster/Players/NikolaJokic.png" width="200" > <img src="Data%20Cluster/Players/JasonTatum.png" width="200" > <img src="Data%20Cluster/Players/KawaiiLeanord.png" width="200" > 
@@ -132,11 +140,15 @@ Can we define a good player and a bad player? We have the player rankings by tea
 
 We first need to define what a good and bad player is. This was a lot more sipler then our previous task of defniing the type of player because this can be a lot more objective. A player that plays on avaerage 20 min and puts up on average 20 points  is definetly good while a player that plays 20 min and puts up 2. We used almost all the non catigorical data we had and clustered the players with K-Means into 2 catagories. This is how we got owr good and bad bad players.
 
+<img src="Data%20Cluster/good_bad_players.png" width="350" >
+
 Our results are very strongly related to the rank given by ESPN. We were able to predict with 78.7% certainty.
 
 (Just for my curiosity I also looked at the relation ship between or new 'good and bad model' and height. There was a coorelation of 1.9%)
 
 Lastly, I wanted to create a model a cluster model with 3 variables, 'PPG', 'AST' and 'RPG'. The reason why I wanted to make a model with these variable was because these are the stats that are usually at the center of focus when talking anout nasketball. I wanted to show that with only these stats you can not evaluate the player of the leauge.
+
+<img src="Data%20Cluster/BasicModel.png" width="350" >
 
 With this model we get that there is a 68.99% Relation between the model and the MPG (minutes played per game). This is why we need to use stats that are not time based and more performance based.
 
