@@ -84,7 +84,7 @@ The first situation the we were able to cluster and evaluate in tablue was our H
 
 
 
-We then move onto more complex clustering models in python. One of the situations we were trying to cluster were the type of players. This was a difficult task becuase we did not want k-means to cluster the players who get more playing time to less playing. If we used all the variables our medel just seperated the players by who put up more higher stats vs lower states. We did not want this. What we want was to cluser by play style. So the 'catch and shoot player', 'big man', 'facilitators', 'all rounded'and ect get paired together. For us to get this result, we could not include any variables that were coorealted to playing time. So for example instead of using 3 points made, we would use 3 point percentage. This was a very itterative process and I kept going back to look at where the models were placing playuers until I thought a model looked good enough. There is no correct or incorrect answer to this clustering as it kept changing as I was tunign the model with variables. But in the end I was a ble to land on a cluster that I thought was prettu good. 
+We then move onto more complex clustering models in python. One of the situations we were trying to cluster were the type of players. This was a difficult task becuase we did not want k-means to cluster the players who get more playing time to less playing. If we used all the variables our medel just seperated the players by who put up more higher stats vs lower states. We did not want this. What we want was to cluser by play style. So the 'catch and shoot player', 'big man', 'facilitators', 'all rounded'and ect get paired together. For us to get this result, we could not include any variables that were coorealted to playing time(We go into more detail on why we can not use time depandent statistics more in detail atr the bottem of the 'Clustering' section). So for example instead of using 3 points made, we would use 3 point percentage. This was a very itterative process and I kept going back to look at where the models were placing playuers until I thought a model looked good enough. There is no correct or incorrect answer to this clustering as it kept changing as I was tunign the model with variables. But in the end I was a ble to land on a cluster that I thought was prettu good. 
 
 We first have the facilitators. These are the players with a high basketball IQ and can see plays happening before they happen. In addition, these types of players are typically masters of the half court set offense and they usually know the correct spots for each player on the court. It was not by coincidence that a lot of point gaurds or players with good assist percentages got placed in this catagory. 
 
@@ -121,6 +121,26 @@ Some example of the all-ropund players include Lebron James, Nikola Jokic, Jason
 <p align="center">
    <img src="Data%20Cluster/Players/LebronJames.png" width="200" > <img src="Data%20Cluster/Players/NikolaJokic.png" width="200" > <img src="Data%20Cluster/Players/JasonTatum.png" width="200" > <img src="Data%20Cluster/Players/KawaiiLeanord.png" width="200" > 
 </p>    
+
+I wanted to see if this model was related to the player salary in any sort of way but as I expected there wasnt much cooration at all 6.87%. However I also looked at the coorelastion between some of the popular stats and salary and there was most definetly a coorelation.
+
+PPG vs Salary: 72.7% cooralated
+AST vs Salary: 67.9% cooralated
+RPG vs Salary: 48.9% cooralated
+
+Can we define a good player and a bad player? We have the player rankings by team that were given by ESPN, what does our model say about the ranking on the teams. Can we predict what rank the player will be on there team with our model.
+
+We first need to define what a good and bad player is. This was a lot more sipler then our previous task of defniing the type of player because this can be a lot more objective. A player that plays on avaerage 20 min and puts up on average 20 points  is definetly good while a player that plays 20 min and puts up 2. We used almost all the non catigorical data we had and clustered the players with K-Means into 2 catagories. This is how we got owr good and bad bad players.
+
+Our results are very strongly related to the rank given by ESPN. We were able to predict with 78.7% certainty.
+
+(Just for my curiosity I also looked at the relation ship between or new 'good and bad model' and height. There was a coorelation of 1.9%)
+
+Lastly, I wanted to create a model a cluster model with 3 variables, 'PPG', 'AST' and 'RPG'. The reason why I wanted to make a model with these variable was because these are the stats that are usually at the center of focus when talking anout nasketball. I wanted to show that with only these stats you can not evaluate the player of the leauge.
+
+With this model we get that there is a 68.99% Relation between the model and the MPG (minutes played per game). This is why we need to use stats that are not time based and more performance based.
+
+
 
     
     
